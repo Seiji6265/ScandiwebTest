@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .nav-left {
+    text-align: left;
+  }
+  .nav-right {
+    text-align: right;
+  }  
+  nav button{
+    
+    margin-left: 10px;
+  }
+  h1 {
+    text-align: center;
+  }
+
+  label {
+      margin-bottom: 10px;
+  }
+
+  input, select {
+      margin-bottom: 15px;
+  }
+
+  #book-fields,
+  #disc-fields,
+  #furniture-fields {
+      margin-top: 10px;
+  }
+  .product {
+    display: block;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: calc(25% - 20px);
+    box-sizing: border-box;
+  }
+  .product > p{
+    text-align: center;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .product:last-child {
+    margin-right: 0;
+  }
+  footer{
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  form label {
+      margin-bottom: 10px;
+  }
+
+  form input,
+  form select {
+      margin-bottom: 15px;
+  }
